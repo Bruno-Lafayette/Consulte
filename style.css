@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    background-color:rgb(21 49 91);
+    font-family: -apple-system, SF Pro Rounded;
+
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+p{
+    margin-top: 20px;
+}
+
+.mainGeral{
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.titulo{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+
+    font-style: normal;
+}
+
+.geral {
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    background-color:rgb(21 49 91);
+}
+.imgBack{
+    width: 10%;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.imagemLogo{
+    margin-bottom: 10%;
+    width: 550px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaoInicial{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    color: white;
+    font-size: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
+    line-height: 150%;
+}
+
+.textoGeral{
+    padding-bottom: 20%;
+}
+.subTitulo{
+    color: white;
+    font-size: 30px;
+    margin-left: 140px;
+    margin-right: 140px;
+    line-height: 150%;
+    font-weight: 700;
+}
+.botao{
+    background-color:rgb(21 49 91);
+    font-weight: 600;
+    font-size: 50px;
+    font-family: -apple-system, SF Pro Rounded;
+    border: none;
+    font-size: large;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 50px;
+    width: 250px;
+    height: 70px;
+}
+
+.botaoVoltar{
+    border: none;
+    font-size: large;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 50px;
+    width: 150px;
+    height: 50px;
+}
