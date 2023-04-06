@@ -3,7 +3,6 @@
     margin: 0;
     background-color:rgb(21 49 91);
     font-family: -apple-system, SF Pro Rounded;
-
 }
 
 .navBar{
@@ -30,7 +29,6 @@ p{
     text-align: center;
     font-weight: 900;
     font-size: 50px;
-
     font-style: normal;
 }
 
@@ -104,4 +102,77 @@ nav{
     margin: 50px;
     width: 150px;
     height: 50px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .navBar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px;
+    }
+
+    .texto{
+        color: white;
+        font-size: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+        line-height: 150%;
+    }
+
+
+    .imagemLogo{
+        width: 310px;
+        height: 50px;
+        margin-bottom: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .botaoVoltar{
+        border: none;
+        font-size: 12px;
+        border-radius: 25px;
+        background-color: rgba(255, 255, 255, 1);
+        margin:20px;
+        width: 100px;
+        height: 40px;
+    }
+
+
+    .botao{
+        background-color:rgb(21 49 91);
+        font-weight: 600;
+        font-size: 12px;
+        font-family: -apple-system, SF Pro Rounded;
+        border: none;
+        border-radius: 25px;
+        background-color: rgba(255, 255, 255, 1);
+        margin: 10px;
+        width: 140px;
+        height: 50px;
+    }
+
+    .titulo{
+        color: white;
+        margin: 10px;
+        margin-bottom: 70px;
+        text-align: center;
+        font-weight: 900;
+        font-size: 40px;
+        font-style: normal;
+    }
+
+    .subTitulo{
+        color: white;
+        font-size: 25px;
+        margin-left: 40px;
+        margin-right: 40px;
+        line-height: 150%;
+        font-weight: 700;
+    }
+
+
 }
